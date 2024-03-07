@@ -1,0 +1,6 @@
+def main[]:Void{
+  ::print[3];
+  ::print[3.2];
+  ::print["foobar"];
+  ::print[ 3 + 4 ];
+}

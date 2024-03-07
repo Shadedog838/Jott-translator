@@ -1,0 +1,14 @@
+def addNumbers[a:Integer, b:Integer]:Integer {
+  return a + b;
+}
+
+def subtractNumbers[a:Integer, b:Integer]:Integer {
+  return a - b;
+}
+
+def main[]:Void {
+  Integer result1 = ::addNumbers[5, 3];
+  Integer result2 = ::subtractNumbers[10, 4];
+  ::print[result1];
+  ::print[result2];
+}

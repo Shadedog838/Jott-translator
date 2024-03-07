@@ -1,0 +1,4 @@
+def main[]:Void{
+  Integer i = ::length["foo"];
+  ::print[i];
+}

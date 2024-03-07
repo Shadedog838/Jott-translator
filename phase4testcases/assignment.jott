@@ -1,0 +1,9 @@
+def foo[x:Integer]:Void{
+  ::print[x];
+}
+
+def main[]:Void{
+    Integer x = 5;
+    ::print[ x + 3 ];
+    ::foo[x];
+}

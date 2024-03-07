@@ -1,0 +1,10 @@
+def checkGreaterThan[a:Integer, b:Integer]:Boolean {
+  return a > b;
+}
+
+def main[]:Void {
+  Boolean result1 = ::checkGreaterThan[5, 3];
+  Boolean result2 = ::checkGreaterThan[3, 8];
+  ::print[result1];
+  ::print[result2];
+}

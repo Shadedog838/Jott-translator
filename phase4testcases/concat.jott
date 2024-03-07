@@ -1,0 +1,8 @@
+def main[]:Void{
+  String s = ::concat["foo", "bar"];
+  ::print[s];
+  String s1 = "foo";
+  String s2 = ::concat["bar", s1];
+  ::print[s2];
+  ::print[::concat["foo", ::concat["bar", "baz"]]];
+}

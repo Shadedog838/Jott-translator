@@ -1,0 +1,21 @@
+def foo[ x:Integer,y:Double]:String{
+  if[x>5]{
+    return "foo";
+  }
+  elseif[y<3.2]{
+    return "bar";
+  }
+  return "foobar";
+}
+
+def bar[s:String]:Void{
+  ::print[s];
+}
+
+def main[]:Void{
+  ::print[::foo[5, 9.5]];
+  ::print[::foo[4, 3.2]];
+  String x = ::foo[11, 8.5];
+  ::print[x];
+  ::bar[::foo[5, 9.7]];
+}

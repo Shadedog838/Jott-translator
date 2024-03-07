@@ -1,0 +1,8 @@
+def main[]:Void{
+    String s = "foo";
+    String y1 = "bar";
+    String y2 = "123 rf 17";
+    ::print[s];
+    ::print[y1];
+    ::print[y2];
+}

@@ -1,0 +1,22 @@
+def main[]:Void{
+  Integer x = 5;
+  if[x == 5]{
+    ::print["Yes"];
+  }
+  else{
+    ::print["No"];
+  }
+  Integer y = 7;
+  if[y < 6]{
+    ::print[4];
+  }
+  elseif[ y >= 7]{
+    ::print[3];
+  }
+  else{
+    ::print[11];
+  }
+  if[y > 8]{
+    ::print[x + y];
+  }
+}

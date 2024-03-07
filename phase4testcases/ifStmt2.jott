@@ -1,0 +1,19 @@
+def isEven[x:Integer]:Boolean {
+  Integer quotient = x / 2;
+  Integer product = quotient * 2;
+  Integer result = x - product;
+  return result == 0;
+}
+
+def checkNumber[x:Integer]:Void {
+  if [::isEven[x]] {
+    ::print["Even"];
+  }
+  else {
+    ::print["Odd"];
+  }
+}
+
+def main[]:Void {
+  ::checkNumber[7];
+}

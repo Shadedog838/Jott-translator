@@ -1,0 +1,19 @@
+This file contains provided code, testers, and test cases.
+
+provided should be a top level package in your src directory
+JottParserTester and JottTokenizerTester classes should be in a package call testers.
+
+the testCases directories should be in the working directory of your project.
+
+Update Phase 1:
+To run the project first compile the JottTokenizer, TokenType and the Token class.
+We have all our code in the JottTokenizer.java file. Use the JottTokenizerTester in the testers folder to test.
+
+Update Phase 2:
+To run project compile all classes in provided folder, many new node classes have been added. Then use JottParserTester in the testers folder to test.
+
+Update Phase 3:
+To run project compile Jott.java file with "javac Jott.java", and then run "java Jott <input-jott-file>, <output-file>, <output-language>". The only output-language implemented is currently Jott.
+
+Update Phase 4:
+To run project compile Jott.java file with "javac Jott.java", and then run "java Jott <input-jott-file>, <output-file>, <output-language>". The output-language field can now be Jott, C, Java, or Python.  convertToC.h will be created when converting Jott to C.

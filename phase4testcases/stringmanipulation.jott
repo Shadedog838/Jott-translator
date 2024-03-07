@@ -1,0 +1,8 @@
+def concatenateStrings[a:String, b:String]:String {
+  return ::concat[a, b];
+}
+
+def main[]:Void {
+  String result = ::concatenateStrings["Hello", " World"];
+  ::print[result];
+}

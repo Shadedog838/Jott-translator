@@ -11,8 +11,8 @@
 #Ignore any created .py files
 *.py
 
-# #Ignore any .jott files in a folder other than test folders
-# *.jott
+#Ignore any .jott files in a folder other than test folders
+*.jott
 
-# #Ignore any created output java files
-# *.java
+#Ignore any created output java files
+*.java
